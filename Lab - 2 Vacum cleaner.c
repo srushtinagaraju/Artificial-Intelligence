@@ -64,3 +64,29 @@ Moving vacuum right
 Cleaned B.
 Cost: 2
 {'A': 0, 'B': 0}
+
+
+Enter state of A (0 for clean, 1 for dirty): 0
+Enter state of B (0 for clean, 1 for dirty): 0
+Enter location (A or B): B
+Turning vacuum off
+Cost: 0
+{'A': 0, 'B': 0}
+
+Enter state of A (0 for clean, 1 for dirty): 1
+Enter state of B (0 for clean, 1 for dirty): 0
+Enter location (A or B): A
+Cleaned A.
+Moving vacuum right
+B is clean
+Cost: 1
+{'A': 0, 'B': 0}
+
+Enter state of A (0 for clean, 1 for dirty): 0
+Enter state of B (0 for clean, 1 for dirty): 1
+Enter location (A or B): B
+Cleaned B.
+Moving vacuum left
+A is clean
+Cost: 1
+{'A': 0, 'B': 0}
