@@ -62,3 +62,70 @@ def tic_tac_toe():
 
 if __name__ == "__main__":
     tic_tac_toe()
+
+
+
+OUTPUT:
+
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Player X's turn.
+Enter row (0, 1, or 2): 0
+Enter column (0, 1, or 2): 0
+
+
+X |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Player O's turn.
+Enter row (0, 1, or 2): 1
+Enter column (0, 1, or 2): 0
+
+
+X |   |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Player X's turn.
+Enter row (0, 1, or 2): 1
+Enter column (0, 1, or 2): 1
+
+
+X |   |  
+---------
+O | X |  
+---------
+  |   |  
+---------
+Player O's turn.
+Enter row (0, 1, or 2): 1
+Enter column (0, 1, or 2): 2
+
+
+X |   |  
+---------
+O | X | O
+---------
+  |   |  
+---------
+Player X's turn.
+Enter row (0, 1, or 2): 2
+Enter column (0, 1, or 2): 2
+
+
+X |   |  
+---------
+O | X | O
+---------
+  |   | X
+---------
+Player X wins!
