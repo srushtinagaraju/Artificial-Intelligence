@@ -35,6 +35,25 @@ for values in itertools.product([False, True], repeat=3):
     print(f"{str(values[0]):<6}{str(values[1]):<6}{str(values[2]):<6}"
           f"{alpha_str:<10}{kb_str:<10}")
 
+
+    ################OUTPUT######################
+Enter alpha (example: A | B): ( A | B)
+Enter KB (example: (A | C) & (B | ~C)): (A | C) & (B | ~C)
+
+Truth Table for α = ( A | B), KB = (A | C) & (B | ~C)
+
+A     B     C     α         KB        
+False False False False     False     
+False False True  False     False     
+False True  False True      False     
+False True  True  TrueTrue
+True  False False TrueTrue
+True  False True  True      False     
+True  True  False TrueTrue
+True  True  True  TrueTrue
+
+ KB |= α holds (KB entails α)
+
     # Check entailment
     if kb_val and not alpha_val:
         entailed = False
